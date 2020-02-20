@@ -1,0 +1,46 @@
+body{
+    background-color: blue
+}
+
+#container {
+    display:grid;
+    grid-tamplate-areas:
+    'hv'
+    'nv'
+    'as'
+    'mn'
+    'ft'
+    
+}
+
+header{
+  grid-area: hd;
+  background-color: aqua
+
+}
+
+nav{
+    grid-area: nv;
+    background-color: black
+
+
+}
+
+aside{
+    grid-area: as;
+    background-color: yellow
+
+
+}
+
+main{
+    grid-area: mn;
+    background-color: blueviolet
+}
+
+footer{
+    grid-area:ft;
+    background-color: greenyellow
+
+}
+
