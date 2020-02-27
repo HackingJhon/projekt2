@@ -1,16 +1,20 @@
-body{
-    background-color: blue
+body {
+    background-color: brown
+
 }
+
+
+
 
 #container {
     display:grid;
-    grid-tamplate-areas:
-    'hv'
+    grid-template-areas: 
+    'hd'
     'nv'
     'as'
     'mn'
     'ft'
-    
+  
 }
 
 header{
